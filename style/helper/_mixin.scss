@@ -1,0 +1,61 @@
+.container{
+    max-width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+//Font Colors
+.link-fb{
+    color:$blue;
+}
+.link-twitter{
+    color:$teal;
+}
+.primary{
+    color:$white;
+}
+.secondary{
+    color:$black;
+}
+.footer_contact{
+    color:$pink;
+}
+//text align
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+//Background-color
+.bg_socialmedia{
+    background-color: $gray-300;
+}
+.bg_contact{
+    background:linear-gradient(to bottom, $cyan, rgb(0, 255, 191));;
+}
+
+
+//Padding
+.pd_5{
+    padding: 5px;
+}
+.pd_10{
+    padding:10px;
+}
+.pd-right_5{
+    padding-right: 5px;
+}
+.pd-right_10{
+    padding-right: 10px;
+}
+//text-decoration
+.decoration{
+    list-style:disc ;
+}
+
+
+//font-size
+.fz_20{
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.banner{
+    height: 300px;
+    background-image: url('../images/HTML作業圖檔/最終作業_images/banner.png');
+    background-size: cover;
+}
+.banner_textbg{
+    background-color: rgba(81, 83, 83, 0.3);
+    position: relative;
+    top:30%;
+}
+
+.products{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.table{
+    max-width:70%;
+}
+
+.pages a:hover{
+    border-bottom:2px soild $teal;
+
+}
+.contact{
+
+    margin: 0 auto;
+}
+.input_text{
+    width:500px; 
+    
+}
+
+//更改placeholder顏色
+::placeholder {
+    color: rgb(24, 23, 23);
+    font-size:0.9em;
+    padding-left:1em;
+  
+  }
+  
