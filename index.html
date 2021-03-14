@@ -10,17 +10,18 @@
 
 <body>
   <div class="container">
-    <div class="socialMedia  bg_socialmedia">
-      <ul class="d-flex align-items-baseline justify-content-end">
-        <li class="pd_5"><a href="#" class="link-fb px-1 border-right my-2"><img
-              src="./images/HTML作業圖檔/最終作業_images/facebookIcon.png" alt="" class="px-1">粉絲團</a></li>
-        <li class="pd-right_5"><a href="#" class="link-twitter pd-right_10"><img
-              src="./images/HTML作業圖檔/最終作業_images/twitterIcon.png" alt="" class="px-1">追隨我們</a>
-        </li>
-      </ul>
-    </div>
+    <ul class="d-flex align-items-baseline justify-content-end socialMedia bg_socialmedia">
+      <li class="pd_5"><a href="#" class="link-fb px-1 border-right"><img
+            src="./images/HTML作業圖檔/最終作業_images/facebookIcon.png" alt="facebookIcon" class="px-1">粉絲團</a></li>
+      <li class="pd-right_5"><a href="#" class="link-twitter pd-right_10"><img
+            src="./images/HTML作業圖檔/最終作業_images/twitterIcon.png" alt="twitterIcon" class="px-1">追隨我們</a>
+      </li>
+    </ul>
+
     <div class="navbar d-flex justify-content-between align-items-baseline mb-2">
-      <a href="#" class=""><img src="./images/HTML作業圖檔/最終作業_images/logo.png" alt=""></a>
+      <h1 class="logo">
+        <a href="#">Logo</a>
+      </h1>
       <div>
         <ul class="d-flex nav">
           <li class="pages nav-tabs px-2 border-right"><a href="#" class="link-twitter pages">首頁</a></li>
@@ -36,7 +37,7 @@
     </div>
     <div class="justify-content-md-center card-group mb-5">
 
-      <div class="card p-3 m-3 border rounded" >
+      <div class="card p-3 m-3 border rounded">
         <a href="#"><img src="./images/HTML作業圖檔/最終作業_images/html.png" alt=""></a>
         <div class="card-body px-3">
           <h4 class="card-title mt-1">Html 5 基礎教學</h4>
@@ -61,7 +62,7 @@
           <h4 class="card-title">jQuery實戰教學</h4>
           <p class="card-text text-justify ">本課程有以下特色</p>
           <ul class="text_left decoration">
-            <li >瞭解變數的使用方法</li>
+            <li>瞭解變數的使用方法</li>
             <li>學習並操作DOM</li>
             <li>學習基本數學運算方式</li>
             <li>套件的操作及運用</li>
@@ -71,7 +72,7 @@
     </div>
 
     <div class="mb-5">
-      <h2 class="mb-3">線上及實體課程的差異</h2>
+      <h2 class="mb-3 ">線上及實體課程的差異</h2>
       <table class="table table-hover table-bordered mx-auto">
         <thead>
           <tr>
@@ -121,40 +122,32 @@
         </tbody>
       </table>
     </div>
-    <div class="contact bg_contact border-0 rounded">
+    <div class="bg_contact border-0 rounded">
       <h2 class="primary pt-3">對我們課程有興趣嗎?</h2>
       <p class="primary fz_20">歡迎留下您的資料</p>
       <div class=" mt-3 d-flex justify-content-around">
-        <ul>
-          <li><textarea name="" id="" cols="65" rows="10" class="mt-4"></textarea></li>
-        </ul>
-        <ul>
-          <li class="text_left primary">
-            <p id="name">姓名</p>
-            <input type="text" name="" id="" placeholder="六角講師" class="input_text">
-            <p id="phone">電話</p>
-            <input type="text" name="phone" id="" placeholder="0912345678" class="input_text">
-            <p id="email">信箱</p>
-            <input type="text" name="" id="" placeholder="hexschool@mail.com" class="input_text">
-            <p class="text_right">
-              <input type="button" value="提交" class=" btn">
-            </p>
-          </li>
-        </ul>
+        <textarea name="" id="" cols="" rows="" class="mt-2 leaveMessage"></textarea>
+        <form class="text_left primary d-flex flex-column">
+          <label for="yourname" class="">姓名</label>
+          <input type="text" name="yourname" id="yourname" placeholder="六角講師" class="input_text">
+          <label for="phone" class="">電話</label>
+          <input type="text" name="phone" id="phone" placeholder="0912345678" class="input_text">
+          <label for="email" class="">信箱</label>
+          <input type="text" name="email" id="email" placeholder="hexschool@mail.com" class="input_text ">
+          <input type="button" value="Submit" class=" btn mt-1 mb-2">
+        </form>
       </div>
     </div>
-    <footer class="d-flex justify-content-between align-items-baseline mt-3">
-      <div>
-        <a href="#"><img src="./images/HTML作業圖檔/最終作業_images/footerLogo.png" alt=""></a>
-      </div>
-      <div>
-        <ul>
-          <li>聯絡我們 : <span class="footer_contact pd-right_5">hexschool@gmail.com</span></li>
+    <footer class="d-flex justify-content-between mt-3">
+      <h1 class="footLogo">
+        <a href="#">FooterLogo</a>
+      </h1>
+      <ul>
+        <li >聯絡我們 :<a href="mailto:hexschool@gmail.com" class="footer_contact pd-right_5" > hexschool@gmail.com</a></li>
 
-          <li class="text_left">電話 : <span class="footer_contact pd-right_5">0999123456</span></li>
+        <li class="text_left">電話 :<a href="tel:+88699123456" class="footer_contact pd-right_5"> 0999123456</a></li>
+      </ul>
 
-        </ul>
-      </div>
     </footer>
   </div>
 

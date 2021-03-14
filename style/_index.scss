@@ -1,3 +1,22 @@
+//圖片取代文字
+.logo a{
+    display:block;
+    background:url('../images/HTML作業圖檔/最終作業_images/logo.png') no-repeat;
+    width: 200px;
+    height: 50px;
+    text-indent:101%; /*首行縮排*/
+    overflow:hidden; /*自動隱藏超出的文字或圖片*/
+    white-space:nowrap; /*希望元素在第一排上面，沒有斷行*/
+}
+.footLogo a{
+    display:block;
+    background:url('../images/HTML作業圖檔/最終作業_images/footerLogo.png') no-repeat;
+    width: 200px;
+    height: 40px;
+    text-indent:101%; /*首行縮排*/
+    overflow:hidden; /*自動隱藏超出的文字或圖片*/
+    white-space:nowrap; /*希望元素在第一排上面，沒有斷行*/
+}
 .banner{
     height: 300px;
     background-image: url('../images/HTML作業圖檔/最終作業_images/banner.png');
@@ -22,15 +41,15 @@
     border-bottom:2px soild $teal;
 
 }
-.contact{
 
-    margin: 0 auto;
-}
 .input_text{
     width:500px; 
     
 }
-
+.leaveMessage{
+    width: 400px;
+    height: 200px;
+}
 //更改placeholder顏色
 ::placeholder {
     color: rgb(24, 23, 23);
